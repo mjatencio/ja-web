@@ -1,36 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Javier Atencio - Negocios Inmobiliarios Inmobiliaria Ventas Alquileres Tasaciones Administración Navarro">
-    <title>Javier Atencio - Negocios Inmobiliarios</title>
-    <base href="https://mjatencio.github.io/ja-web/">    <style>
-        @keyframes hideLoader{0%{ width: 100%; height: 100%; }100%{ width: 0; height: 0; }  }  body > div.loader{ position: fixed; background: white; width: 100%; height: 100%; z-index: 1071; opacity: 0; transition: opacity .5s ease; overflow: hidden; pointer-events: none; display: flex; align-items: center; justify-content: center;}body:not(.loaded) > div.loader{ opacity: 1;}body:not(.loaded){ overflow: hidden;}  body.loaded > div.loader{animation: hideLoader .5s linear .5s forwards;  } /* Typing Animation */.loading-animation {width: 6px;height: 6px;border-radius: 50%;animation: typing 1s linear infinite alternate;position: relative;left: -12px;}@keyframes typing {0% {background-color: rgba(100,100,100, 1);box-shadow: 12px 0px 0px 0px rgba(100,100,100, 0.2),24px 0px 0px 0px rgba(100,100,100, 0.2);}25% {background-color: rgba(100,100,100, 0.4);box-shadow: 12px 0px 0px 0px rgba(100,100,100, 2),24px 0px 0px 0px rgba(100,100,100, 0.2);}75% {background-color: rgba(100,100,100, 0.4);box-shadow: 12px 0px 0px 0px rgba(100,100,100, 0.2),24px 0px 0px 0px rgba(100,100,100, 1);}}
-    </style>
-    <script type="text/javascript">
-        window.addEventListener("load", function () {    document.querySelector('body').classList.add('loaded');  });
-    </script>
 
-    <!-- This need to be uncomented when you dont want to bundle photoswipe-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Javier Atencio - Negocios Inmobiliarios Inmobiliaria Ventas Alquileres Tasaciones Administración Navarro">
+  <title>Javier Atencio - Negocios Inmobiliarios</title>
+  <base href="https://mjatencio.github.io/ja-web/">  <style>
+    @keyframes hideLoader {
+      0% {
+        width: 100%;
+        height: 100%;
+      }
+
+      100% {
+        width: 0;
+        height: 0;
+      }
+    }
+
+    body>div.loader {
+      position: fixed;
+      background: white;
+      width: 100%;
+      height: 100%;
+      z-index: 1071;
+      opacity: 0;
+      transition: opacity .5s ease;
+      overflow: hidden;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    body:not(.loaded)>div.loader {
+      opacity: 1;
+    }
+
+    body:not(.loaded) {
+      overflow: hidden;
+    }
+
+    body.loaded>div.loader {
+      animation: hideLoader .5s linear .5s forwards;
+    }
+
+    /* Typing Animation */
+    .loading-animation {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      animation: typing 1s linear infinite alternate;
+      position: relative;
+      left: -12px;
+    }
+
+    @keyframes typing {
+      0% {
+        background-color: rgba(100, 100, 100, 1);
+        box-shadow: 12px 0px 0px 0px rgba(100, 100, 100, 0.2), 24px 0px 0px 0px rgba(100, 100, 100, 0.2);
+      }
+
+      25% {
+        background-color: rgba(100, 100, 100, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(100, 100, 100, 2), 24px 0px 0px 0px rgba(100, 100, 100, 0.2);
+      }
+
+      75% {
+        background-color: rgba(100, 100, 100, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(100, 100, 100, 0.2), 24px 0px 0px 0px rgba(100, 100, 100, 1);
+      }
+    }
+  </style>
+  <script type="text/javascript">
+    window.addEventListener("load", function () { document.querySelector('body').classList.add('loaded'); });
+  </script>
+
+  <!-- This need to be uncomented when you dont want to bundle photoswipe-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js"></script>
-    
-    
 
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="assets/css/theme-coworking.min.css" rel="stylesheet" type="text/css" media="all" /> 
-    <link rel="preload" as="font" href="assets/fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="styles.b02980a5efdd212b2734.css"></head>
+
 <body>
   <!-- loader  -->
   <div class="loader">
-      <div class="loading-animation"></div>
+    <div class="loading-animation"></div>
   </div>
 
   <div id="top"></div>
@@ -43,14 +104,11 @@
     <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="Ir al inicio" data-inject-svg />
   </a> -->
 
-  <!-- <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-offset="1000" data-aos-mirror="true" data-aos-once="false">
-    <img class="icon" src="assets/img/icons/social/whatsapp.svg" alt="Enviar Mensaje" data-inject-svg />
-  </a> -->
-
   <a href="https://api.whatsapp.com/send?phone=5492227461860&text=Hola%2C%20quiero%20hacer%20una%20consulta."
     class="float whatsapp-btn" target="_blank">
     <i class="fab fa-whatsapp my-float"></i>
   </a>
 
-<script src="runtime-es2015.c5fa8325f89fc516600b.js" type="module"></script><script src="runtime-es5.c5fa8325f89fc516600b.js" nomodule defer></script><script src="polyfills-es5.d5e41319ac4c4f307356.js" nomodule defer></script><script src="polyfills-es2015.5b10b8fd823b6392f1fd.js" type="module"></script><script src="scripts.f6f5b8be536a8a7d3b91.js" defer></script><script src="main-es2015.3a6ca8177bc2356fe5ab.js" type="module"></script><script src="main-es5.3a6ca8177bc2356fe5ab.js" nomodule defer></script></body>
+<script src="runtime-es2015.c5fa8325f89fc516600b.js" type="module"></script><script src="runtime-es5.c5fa8325f89fc516600b.js" nomodule defer></script><script src="polyfills-es5.d5e41319ac4c4f307356.js" nomodule defer></script><script src="polyfills-es2015.5b10b8fd823b6392f1fd.js" type="module"></script><script src="scripts.f6f5b8be536a8a7d3b91.js" defer></script><script src="main-es2015.f951a0b706b56ba917c2.js" type="module"></script><script src="main-es5.f951a0b706b56ba917c2.js" nomodule defer></script></body>
+
 </html>
