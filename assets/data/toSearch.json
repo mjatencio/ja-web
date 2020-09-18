@@ -1,0 +1,18 @@
+[
+    {
+        "img": "./assets/img/my-img.jpg",
+        "tipoPropiedad": "Departamento",
+        "tipoOperacion": "Alquiler",
+        "isOportunidad": true,
+        "isDestacada": false,
+        "id": 26589
+    },
+    {
+        "img": "./assets/img/my-img.jpg",
+        "tipoPropiedad": "Campo",
+        "tipoOperacion": "Venta",
+        "isOportunidad": false,
+        "isDestacada": true,
+        "id": 26590
+    }
+]

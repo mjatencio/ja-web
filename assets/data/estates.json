@@ -1,0 +1,24 @@
+[
+    {
+        "id": 235,
+        "title": "Titulo",
+        "description": "Descripción",
+        "imgs":
+            {
+                "ppal": "imgppal",
+                "1": "1",
+                "2": "2"
+            },
+        "map":
+            { 
+                
+                "lat": -35.0071008,
+                "lng": -59.2776779
+            },
+        "streetSrc": "https://www.google.com/maps/embed?pb=!4v1587993870384!6m8!1m7!1syhNiD6hlakExUvv9Z5wV1A!2m2!1d-35.00619363739245!2d-59.27139766741032!3f6.271093262614443!4f-3.550610209003196!5f0.7820865974627469",
+        "details": {
+            "superfice": 245,
+            "superficieCubierta": 24
+        }
+    }
+]
